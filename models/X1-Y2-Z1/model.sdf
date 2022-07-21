@@ -3,14 +3,14 @@
     <model name="X1-Y2-Z1">
         <link name="link">
             <inertial>
-                <mass>0.00891495</mass>
+                <mass>5</mass>
                 <inertia>
-                    <ixx>5.98e-04</ixx>
+                    <ixx>1e-3</ixx>
                     <ixy>0.0</ixy>
                     <ixz>-0.0</ixz>
-                    <iyy>2.35e-04</iyy>
+                    <iyy>1e-3</iyy>
                     <iyz>-0.0</iyz>
-                    <izz>5.01e-04</izz>
+                    <izz>1e-3</izz>
                 </inertia>
             </inertial>
             <origin pose="0 0 0 0 0 0"/>

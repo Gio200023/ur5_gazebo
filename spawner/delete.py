@@ -12,4 +12,4 @@ brick_number=[0,0,0,0,0,0,0,0,0,0,0]
 for i in range(11):
     for m in range(2):
         delete_model_client = rospy.ServiceProxy('/gazebo/delete_model', DeleteModel)
-        delete_model_client(str(blocks[i])+'-'+str(brick_number[m]))
+        delete_model_client(str(blocks[i]))

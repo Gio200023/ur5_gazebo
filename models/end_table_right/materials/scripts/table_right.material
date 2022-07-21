@@ -1,4 +1,4 @@
-material grid/Image{
+material grid/Image1{
     receive_shadows on
     
     technique
@@ -10,7 +10,8 @@ material grid/Image{
       specular 0.0 0.0 0.0 1.0 0.5
             texture_unit
             {
-                texture griglia.png
+                texture ../textures/1.png
+                scale 1 1
             }
         }   
     }

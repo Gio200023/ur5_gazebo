@@ -2,10 +2,10 @@
 <package format="2">
   <name>ur5_gazebo</name>
   <version>0.0.0</version>
-  <description>Gazebo simulation of UR5 robot with a robotiq gripper for picking up blocks</description>
+  <description>Gazebo package to spawn a gazebo world, ur5 arm robot and lego blocks</description>
 
-  <maintainer email="tobias.carcereri@studenti.unitn.it">Tobias Carcereri</maintainer>
-  <author email="tobias.carcereri@studenti.unitn.it">Tobias Carcereri</author>
+  <maintainer email="giovanni.lunard@studenti.unitn.it">Giovanni Lunardi</maintainer>
+  <author email="giovanni.lunard@studenti.unitn.it">Giovanni Lunardi</author>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>

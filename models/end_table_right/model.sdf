@@ -4,7 +4,7 @@
   <model name="end_table_right">
     <static>true</static>
 
-    <link name="top_plate">
+    <link name="top_plate_right">
       <pose>0 0 0.755 0 0 0</pose>
       <collision name="top_plate_collision">
         <geometry>
@@ -28,21 +28,21 @@
           <script>
             <uri>model://end_table_right/materials/scripts</uri>
             <uri>model://end_table_right/materials/textures</uri>
-            <name>grid/Image</name>
+            <name>grid/Image1</name>
           </script>
         </material>
       </visual>
     </link>
-    <link name="leg1">
+    <link name="leg_right">
       <pose>0.22 -0.1 0.4 0 0 0</pose>
-      <collision name="leg1_collision">
+      <collision name="leg_right_collision">
         <geometry>
           <box>
             <size>0.04 0.04 0.74</size>
           </box>
         </geometry>
       </collision>
-      <visual name="leg1_visual">
+      <visual name="leg_right_visual">
         <geometry>
           <box>
             <size>0.04 0.04 0.74</size>

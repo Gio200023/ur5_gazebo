@@ -4,7 +4,7 @@
   <model name="end_table_left">
     <static>true</static>
 
-    <link name="top_plate">
+    <link name="top_plate_left">
       <pose>0 0 0.755 0 0 0</pose>
       <collision name="top_plate_collision">
         <geometry>
@@ -33,16 +33,16 @@
         </material>
       </visual>
     </link>
-    <link name="leg1">
+    <link name="leg_left">
       <pose>0.22 -0.1 0.4 0 0 0</pose>
-      <collision name="leg1_collision">
+      <collision name="leg_left_collision">
         <geometry>
           <box>
             <size>0.04 0.04 0.74</size>
           </box>
         </geometry>
       </collision>
-      <visual name="leg1_visual">
+      <visual name="leg_left_visual">
         <geometry>
           <box>
             <size>0.04 0.04 0.74</size>

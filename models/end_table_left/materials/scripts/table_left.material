@@ -10,7 +10,8 @@ material grid/Image{
       specular 0.0 0.0 0.0 1.0 0.5
             texture_unit
             {
-                texture griglia1.png
+                texture ../textures/2.png
+                scale 1 1
             }
         }   
     }
