@@ -27,7 +27,6 @@ posizione=[]
 rotazione=[]
 placement=[]
 
-pub = rospy.Publisher('/kinects/coordinate',brick, queue_size=100)
 
 def get_quaternion_from_euler(a,b,c):
   """
